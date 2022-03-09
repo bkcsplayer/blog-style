@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import EmptyList from '../../components/common/EmptyList';
 import BlogList from '../../components/Home/BlogList';
 import Header from '../../components/Home/Header';
-import SearchBar from '../../components/Home/SearchBar';
+// import SearchBar from '../../components/Home/SearchBar';
 import { blogList } from '../../config/data';
 
 const Home = () => {
@@ -36,12 +36,12 @@ const Home = () => {
       <Header />
 
       {/* Search Bar */}
-      <SearchBar
-        value={searchKey}
-        clearSearch={handleClearSearch}
-        formSubmit={handleSearchBar}
-        handleSearchKey={(e) => setSearchKey(e.target.value)}
-      />
+//       <SearchBar
+//         value={searchKey}
+//         clearSearch={handleClearSearch}
+//         formSubmit={handleSearchBar}
+//         handleSearchKey={(e) => setSearchKey(e.target.value)}
+//       />
 
       {/* Blog List & Empty View */}
       {!blogs.length ? <EmptyList /> : <BlogList blogs={blogs} />}
