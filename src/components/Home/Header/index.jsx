@@ -3,12 +3,12 @@ import './styles.css';
 
 const Header = () => (
   <header className='home-header'>
-    <h2>News</h2>
+    <h2>Khtain Digital</h2>
     <h1>
-      <span>“</span> Khtain Digital <span>”</span>
+      <span>“</span> On Sale <span>”</span>
     </h1>
     <p>
-      每日更新 <br /> 
+        <br /> 
     </p>
   </header>
 );
